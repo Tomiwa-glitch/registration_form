@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    background-color: #603abc;
+}
+
+body,
+input,
+textarea,
+select {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+.reg-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+ .reg-wrapper{
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 550px;
+    /* margin: 0 auto; */
+    /* left: 50%;
+    top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background-color: #f39c12;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 20px;
+    border-radius: 5px; 
+    -webkit-box-shadow: 13px 11px 11px -3px rgba(3,3,3,0.33);
+    -moz-box-shadow: 13px 11px 11px -3px rgba(3,3,3,0.33);
+    box-shadow: 13px 11px 11px -3px rgba(3,3,3,0.33);
+} 
+
+.form-container form h1{
+   text-align: center;
+   color: #603abc;
+   font-family: "gobold";
+   margin-bottom: 30px;
+}  
+
+.input-wrapper span{
+    width: 100%;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.input-wrapper input{
+    width: 100%;
+    padding: 10px 15px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #603abc;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.input-wrapper input:focus{
+    outline: none;
+    background-color: transparent;
+}
+
+.input-wrapper button {
+    width: 100%;
+    background-color: #603abc;
+    color: #fff;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    font-size: 15px !important;
+    width: 100% !important;
+    border: none;
+    outline: none;
+    border-radius: 5px
+}
+
+/* .submit-button button:hover{
+    color: #fff !important;
+}
+.submit-button button:focus{
+    outline: none !important;
+    border: none !important;
+    color: #fff !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+} */
